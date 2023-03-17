@@ -1,16 +1,12 @@
----
-
 ### 设备：Huawei P40 Pro（HarmonyOS 3.0.0.202）
  **攻击者与攻击目标接入同一个个人热点WiFi，攻击者运行ARP欺骗攻击，试图仿冒网关，观察是否可以截获被攻击者的流量。**
 
  **攻击效果：ARP攻击可导致短时间内，攻击者可以截获被攻击者的互联网访问流量，比如DNS。**
- 
 
 ![ARP攻击设想](resource/Huawei+HarmonyOS+3+ARP/image-1.png)
 
 
 ---
-
   网络环境信息：
 
     target硬件地址：xx:xx:xx:xx:e8:51
@@ -25,6 +21,7 @@
 
 ###### attacker网络信息
 ![attacker网络信息](resource/Huawei+HarmonyOS+3+ARP/image-4.png)
+
 
 ---
 #### 攻击运行后抓包观察attacker主机上的流量特征（ARP & DNS）
